@@ -1,0 +1,26 @@
+{
+  "name": "Honvid/optimus",
+  "description": "A PHP Framework based on Composer.",
+  "keywords": ["Optimus", "framework"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "honvid",
+      "email": "koran12@126.com",
+      "role": "founder"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "monolog/monolog": "^1.22",
+    "klein/klein": "^2.1"
+  },
+  "autoload": {
+    "classmap": [
+
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
